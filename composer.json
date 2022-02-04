@@ -13,8 +13,8 @@
   ],
   "require": {
     "php": ">=7.2.0",
-    "ext-json": "*",
     "reaway/think-config": "^1.0",
+    "reaway/think-request": "^1.0",
     "reaway/think-facade": "^1.0"
   },
   "autoload": {
