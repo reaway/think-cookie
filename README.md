@@ -34,6 +34,9 @@ echo cookie('name');
 
 // 删除
 cookie('name', null);
+
+// 保存本次Cookie
+Cookie::instance()->save();
 ```
 
 ## 文档
