@@ -36,7 +36,7 @@ echo cookie('name');
 cookie('name', null);
 
 // 保存本次Cookie
-Cookie::instance()->save();
+Cookie::save();
 ```
 
 ## 文档
